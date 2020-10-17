@@ -1,4 +1,5 @@
 <?php
+
 	$autoloadPathForGithub = __DIR__.'/../vendor/autoload.php';
     $autoloadPathForPackagist = __DIR__.'/../../../autoload.php';
 
@@ -8,7 +9,7 @@
         require_once($autoloadPathForPackagist);
     }
 
-    use function AlekseyKudashkin\hangman\Controller\startGame;
+    use function AlekseyKudashkin\hangman\Controller\mainMenu;
 
-    startGame();
+    mainMenu();
 ?>
