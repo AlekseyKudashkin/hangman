@@ -15,9 +15,10 @@
 	"autoload": {
 		"files": [
 			"src/Controller.php",
-			"src/View.php"
+            "src/View.php"
 		]
-	}
-    
-    
+	},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    }
 }
